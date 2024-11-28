@@ -17,8 +17,14 @@ This is not meant for secure file storage or transmission but can be useful for 
 
 ## Installation
 
+**pip**:
 ```sh
-pip install git+ssh://git@github.com/nollium/enchttp.git
+pip install git+https://github.com/nollium/enchttp.git
+```
+
+**pipx**:
+```sh
+pipx install --spec git+https://github.com/nollium/enchttp.git enchttp
 ```
 
 ---

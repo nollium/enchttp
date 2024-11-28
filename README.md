@@ -1,12 +1,12 @@
 # Encrypted HTTP Server
 
-This project is a simple encrypted HTTP server built using Python. It serves files from the local directory with basic XOR encryption. This is not meant for secure file storage or transmission but can be useful for bypassing basic corporate proxies or adding an obfuscation layer for file transfer.
+This project is a simple encrypted HTTP server built using Python. It serves files from the local directory with basic XOR obfuscation. This is not meant for secure file storage or transmission but can be useful for bypassing basic corporate proxies or adding an obfuscation layer for file transfer.
 
 ---
 
 ## Features
 - Serves files from the current directory.
-- Files are XOR-encrypted with a simple key during download.
+- Files are XOR-ed with a simple key during download.
 - Includes a browser-based decryption mechanism using JavaScript.
 
 ---
@@ -44,8 +44,8 @@ To start the server:
 
 ## File Decryption
 
-- Files served by this server are encrypted using XOR with a fixed key (`42` by default).
-- When downloading files through the browser, JavaScript automatically decrypts the files for you.
+- Files served by this server are obfuscated using XOR with a fixed key (`42` by default).
+- When downloading files through the browser, JavaScript automatically "decrypts" the files for you.
 
 ---
 

@@ -1,6 +1,10 @@
 # Encrypted HTTP Server
 
-This project is a simple encrypted HTTP server built using Python. It serves files from the local directory with basic XOR obfuscation. This is not meant for secure file storage or transmission but can be useful for bypassing basic corporate proxies or adding an obfuscation layer for file transfer.
+This project is a simple encrypted HTTP server built using Python. 
+
+It serves files from the local directory with basic XOR obfuscation. 
+
+This is not meant for secure file storage or transmission but can be useful for bypassing basic corporate proxies or adding an obfuscation layer for file transfer.
 
 ---
 

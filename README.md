@@ -35,14 +35,14 @@ To start the server:
 
 1. Run the server:
    ```
-   enchhtp [PORT]
+   enchttp [PORT]
    ```
    - Replace `[PORT]` with the desired port number (default is `8000`).
    - Use `--bind` or `-b` to specify a custom bind address (default is `0.0.0.0`).
 
    Example:
    ```
-   enchhtp 8080
+   enchttp 8080
    ```
 
 2. Access the server in your browser:

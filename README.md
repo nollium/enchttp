@@ -24,7 +24,7 @@ pip install git+https://github.com/nollium/enchttp.git
 
 **pipx**:
 ```sh
-pipx install git+https://github.com/nollium/enchttp.git enchttp
+pipx install git+https://github.com/nollium/enchttp.git
 ```
 
 ---

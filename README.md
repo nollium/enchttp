@@ -1,6 +1,6 @@
-# Encrypted HTTP Server
+# XOR-ed HTTP Server
 
-This project is a simple encrypted HTTP server built using Python. 
+This project is a simple xor-ed HTTP server built using Python. 
 
 It serves files from the local directory with basic XOR obfuscation. 
 
